@@ -9,6 +9,7 @@ parameters = "{code=42}"
 sql="SELECT EVERYTHING FROM ALL WHERE CODE = :code"
 
 output:
+
 SELECT
 
       EVERYTHING
