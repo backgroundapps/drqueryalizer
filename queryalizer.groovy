@@ -8,6 +8,9 @@ where  = partes[1].split('WHERE ')[1]
 
 selectok = ''
 select.split(',').each{ selectok += '      '+it.trim()+'\n' }
+selectok += '#'
+selectok = selectok.replace(',\n#', '')
+
 fromok = '    '+from.replace('INNER', '\n    INNER').replace('LEFT', '\n    LEFT ')
 whereok = '     '+where.replace('AND', '\n     AND')
 
