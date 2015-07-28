@@ -10,8 +10,13 @@ sql="SELECT EVERYTHING FROM ALL WHERE CODE = :code"
 
 output:
 SELECT
+
       EVERYTHING
+      
 FROM
+
     ALL
+    
 WHERE
+
      CODE = '42'
